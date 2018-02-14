@@ -1,0 +1,12 @@
+.confirmation-text {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  right: 0;
+}
+
+.click-to-see {
+  font-size: 2em;
+  color: rgb(70, 133, 214);
+  margin-top: 15px;
+}

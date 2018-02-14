@@ -1,0 +1,37 @@
+.rest-easy-container,
+.alert-container {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  right: 0;
+}
+
+.alert-container {
+  position: relative;
+  top: -250px;
+  left: 0;
+  right: 0;
+}
+
+.rest-easy {
+  font-size: 2em;
+  color: rgb(70, 133, 214);
+  margin-top: 15px;
+}
+
+.do-not-rest-easy {
+  font-size: 2em;
+  color: rgb(170, 17, 17);
+  margin-top: 15px;
+}
+
+.alert-detail-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.alert-detail-container > * {
+  flex: 1 50%;
+}

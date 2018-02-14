@@ -1,0 +1,37 @@
+.landing-page-container {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.landing-page-midsection {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%
+}
+
+.landing-page-left,
+.landing-page-right {
+  flex: 1 45%;
+}
+
+.landing-page-left {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: -1;
+}
+
+.main-tagline {
+  font-size: 2em;
+}
+
+.sub-tagline {
+  font-size: 0.9em;
+  font-weight: 200;
+  line-height: 20px;
+}

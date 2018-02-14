@@ -1,0 +1,75 @@
+.classes-result-ul {
+  margin-left: 20px;
+}
+
+.available-course {
+  width: 400px;
+  background: rgb(226, 225, 225);
+  border-left: rgb(231, 204, 47) 5px solid;
+  padding-bottom: 10px;
+  margin: 5px;
+  font-size: 0.75em;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.class-name-container {
+  flex: 1 100%;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.add-class-button {
+  border-radius: 2px;
+  box-shadow: none;
+  transition: all 0.2s ease;
+  line-height: 20px;
+  padding-top: 2px;
+  border: 1px rgb(225, 225, 225) solid;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.add-class-button:hover {
+  background: rgb(225, 225, 225);
+  color: rgb(13, 143, 167);
+  border: 1px rgb(13, 143, 167) solid;
+  transition: all 0.2s ease;
+}
+
+.add-class-button:active {
+  color: rgb(12, 110, 128);
+  border: 1px rgb(12, 110, 128) solid;
+}
+
+.no-matching-result {
+  font-size: 0.8em;
+  color: grey;
+}
+
+/* 
+.available-course:nth-child(odd) {
+  border-left: rgb(121, 82, 194) 5px solid;
+}  */
+
+.collapse-enter {
+  opacity: 0.01;
+}
+
+.collapse-enter.collapse-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.collapse-leave {
+  opacity: 1;
+}
+
+.collapse-leave.collapse-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

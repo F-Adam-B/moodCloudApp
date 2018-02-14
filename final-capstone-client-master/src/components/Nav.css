@@ -1,0 +1,86 @@
+.nav-bar {
+  display: flex;
+  padding: 5px 30px;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  font-family: 'PT Sans Narrow', sans-serif;
+  height: 80px;
+  z-index: 100000;
+  background: white;
+}
+
+.nav-bar > * {
+  flex: 1 100%;
+}
+
+.center {
+  justify-content: center
+}
+
+.right {
+  justify-content: flex-end
+}
+
+.logo {
+  width: 90px;
+  margin-right: 8px;
+}
+
+.site-name {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: -5px;
+  font-size: 1.6em
+}
+
+.logo-container {
+  margin-left: 10px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+  align-items: center;
+}
+
+button {
+  border: none;
+  background: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  outline: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+}
+
+.student-tabs {
+  width: 300px;
+  display: flex;
+  justify-content: space-around
+}
+
+.nav-bttn {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+  background-color: white;
+}
+
+.nav-bttn:hover {
+  cursor: pointer;
+  color: rgb(226, 35, 35);
+}
+
+.nav-bttn:active {
+  color: rgb(170, 17, 17);
+}
+
+.nav-bttn-selected {
+  color: rgb(226, 35, 35);
+  border-bottom: 1px solid rgb(226, 35, 35);
+}

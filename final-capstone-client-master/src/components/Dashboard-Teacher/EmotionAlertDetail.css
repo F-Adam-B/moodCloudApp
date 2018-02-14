@@ -1,0 +1,71 @@
+.emotion-alert-detail-container {
+  max-width: 515px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-top: rgb(211, 67, 67) 10px solid;
+  background: white;
+  margin-top: 40px;
+}
+
+.mood-alert-li {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.mood-alert-li-name {
+  font-size: 1.6em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(226, 35, 35);
+}
+
+.mood-alert-li-mood {
+  font-size: 1.9em;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+.mood-alert-li-date-time {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.mood-alert-li-caption {
+  flex: 1 100%;
+  font-size: 1.2em;
+}
+
+.mood-alert-li-blockquote {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.divider {
+  height: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  border-top: 1px rgb(218, 218, 218) solid;
+}
+
+.mood-alert-li-view-history {
+  /* color: rgb(136, 73, 163); */
+  text-decoration: underline;
+  font-size: 1.2em;
+  margin-top: 15px;
+  flex: 1 100%;
+  text-align: right;
+}
+
+.mood-alert-li-view-history:hover {
+  cursor: pointer;
+  color: rgb(100, 39, 126);
+}

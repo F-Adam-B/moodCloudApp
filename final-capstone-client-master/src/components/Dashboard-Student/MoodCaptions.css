@@ -1,0 +1,20 @@
+.mood-caption {
+  font-family: 'Capriola', sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.nothing-selected {
+  /* height: 60px; */
+}
+
+.height-enter {
+  height: 0;
+  opacity: 0.01;
+}
+
+.height-enter.height-enter-active {
+  height: 60px;
+  opacity: 1;
+  transition: height 250ms ease-in, opacity 500ms ease-in;
+}

@@ -1,0 +1,70 @@
+.no-mood {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  right: 0;
+}
+
+.instruction-to-update {
+  font-size: 2em;
+  color: rgb(70, 133, 214);
+  margin-top: 15px;
+}
+
+.word-cloud-container {
+  height: 100vh;
+  z-index: 100;
+}
+
+.word-cloud-text-wrapper {
+  position: relative;
+  top: -250px;
+  left: 0;
+  right: 0;
+  z-index: 1000
+}
+
+.this-is-your-mood-cloud {
+  font-size: 2em;
+  color: rgb(70, 133, 214);
+  margin: 15px auto 0;
+}
+
+.pattern {
+  margin-bottom: 50px;
+}
+
+
+.cloud-background {
+  width: 550px; 
+  height: 500px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: 450px; */
+  top: -760px;
+}
+
+.cloud-background:before {
+  content: '';
+  width: 400px;
+  height: 300px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: -200px;
+}
+
+.cloud-background:after {
+  content: '';
+  width: 400px;
+  height: 300px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}

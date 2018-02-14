@@ -1,0 +1,427 @@
+.container {
+  margin-top: 20px;
+}
+
+.mood-square {
+  width: 28px;
+  height: 28px;
+  margin: 6px;
+  border-radius: 50%;
+  outline: none;
+  opacity: 0.9;
+  border-radius: 50% 50% 50% 0;
+  border: 1px solid #fff;
+  box-shadow: 0 0 0 3px rgb(216, 216, 216);
+  transition: all 0.3s ease;
+}
+
+.mood-square:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.2); 
+}
+
+.mood-square:active {
+  box-shadow: 0 0 0 3px rgb(252, 252, 252);
+  transition: all 0.1s ease;
+}
+
+.enraged {
+  background: rgb(243, 25, 36)
+}
+
+.panicked {
+  background: rgb(243, 42, 31)
+}
+
+.stressed {
+  background: rgb(247, 68, 31)
+}
+
+.jittery {
+  background: rgb(242, 97, 33)
+}
+
+.shocked {
+  background: rgb(246, 113, 35)
+}              
+
+.surprised {
+  background: rgb(247, 182, 44)
+}
+
+.upbeat {
+  background: rgb(249, 199, 46)
+}
+
+.festive {
+  background: rgb(249, 199, 46)
+}
+
+.exhilarated {
+  background: rgb(248, 217, 49)
+}
+
+.ecstatic {
+  background: rgb(255, 239, 92)
+}
+
+       
+.livid {
+  background: rgb(245, 17, 29)
+}
+
+.furious {
+  background: rgb(243, 42, 31)
+}
+
+.frustrated {
+  background: rgb(247, 68, 31)
+}
+
+.tense {
+  background: rgb(235, 86, 32)
+}
+
+.stunned {
+  background: rgb(246, 113, 35)
+}
+
+.hyper {
+  background: rgb(247, 190, 45)
+}
+
+.cheerful {
+  background: rgb(247, 202, 47)
+}
+
+.motivated {
+  background: rgb(249, 199, 46)
+}
+
+.inspired {
+  background: rgb(233, 219, 50)
+}
+
+.elated {
+  background: rgb(253, 240, 53)
+}
+        
+.fuming {
+  background: rgb(212, 25, 32)
+}
+
+.frightened {
+  background: rgb(233, 43, 32)
+}
+
+.angry {
+  background: rgb(223, 61, 36)
+}
+
+.nervous {
+  background: rgb(209, 74, 34)
+}
+
+.restless {
+  background: rgb(219, 89, 35)
+}
+
+.energized {
+  background: rgb(247, 190, 45)
+}
+
+.lively {
+  background: rgb(241, 189, 46)
+}
+
+.enthusiastic {
+  background: rgb(234, 201, 48)
+}
+
+.optimistic {
+  background: rgb(234, 201, 48)
+}
+
+.excited {
+  background: rgb(239, 212, 9)
+}
+        
+.anxious {
+  background: rgb(212, 30, 33)
+}
+
+.apprehensive {
+  background: rgb(202, 46, 35)
+}
+
+.worried {
+  background: rgb(222, 59, 35)
+}
+
+.irrated {
+  background: rgb(209, 74, 34)
+}
+
+.annoyed {
+  background: rgb(209, 74, 34)
+}
+
+.pleased {
+  background: rgb(231, 187, 48)
+}
+
+.happy {
+  background: rgb(231, 184, 48)
+}
+
+.focused {
+  background: rgb(230, 194, 49)
+}
+
+.proud {
+  background: rgb(234, 201, 48)
+}
+
+.thrilled {
+  background: rgb(235, 202, 13)
+}
+        
+.repulsed {
+  background: rgb(205, 27, 33)
+}
+
+.troubled {
+  background: rgb(202, 46, 35)
+}
+
+.concerned {
+  background: rgb(202, 46, 35)
+}
+
+.uneasy {
+  background: rgb(200, 65, 37)
+}
+
+.peeved {
+  background: rgb(220, 73, 38)
+}
+
+.pleasant {
+  background: rgb(231, 184, 48)
+}
+
+.joyful {
+  background: rgb(235, 190, 49)
+}
+
+.hopeful {
+  background: rgb(236, 189, 49)
+}
+
+.playful {
+  background: rgb(248, 218, 53)
+}
+
+.blissful {
+  background: rgb(212, 187, 44)
+}
+        
+.disgusted {
+  background: rgb(15, 56, 215)
+}
+
+.glum {
+  background: rgb(24, 85, 207)
+}
+
+.disappointed {
+  background: rgb(32, 109, 190)
+}
+
+.down {
+  background: rgb(40, 136, 188)
+}
+
+.apathetic {
+  background: rgb(49, 162, 172)
+}
+
+.at-ease {
+  background: rgb(121, 183, 55)
+}
+
+.easygoing {
+  background: rgb(121, 183, 55)
+}
+
+.content {
+  background: rgb(121, 183, 55)
+}
+
+.loving {
+  background: rgb(121, 183, 55)
+}
+
+.fulfilled {
+  background: rgb(121, 183, 55)
+}
+        
+.pessimistic {
+  background: rgb(19, 47, 158)
+}
+
+.morose {
+  background: rgb(28, 82, 165)
+}
+
+.discouraged {
+  background: rgb(28, 82, 165)
+}
+
+.sad {
+  background: rgb(39, 120, 156)
+}
+
+.bored {
+  background: rgb(46, 136, 147)
+}
+
+.calm {
+  background: rgb(96, 178, 65)
+}
+
+.secure {
+  background: rgb(96, 178, 65)
+}
+
+.satisfied {
+  background: rgb(96, 172, 52)
+}
+
+.grateful {
+  background: rgb(95, 168, 44)
+}
+
+.touched {
+  background: rgb(95, 168, 44)
+}
+
+.alienated {
+  background: rgb(19, 47, 158)
+}
+
+.miserable {
+  background: rgb(29, 63, 121)
+}
+
+.lonely {
+  background: rgb(31, 77, 134)
+}
+
+.disheartened {
+  background: rgb(38, 96, 126)
+}
+
+.tired {
+  background: rgb(43, 111, 121)
+}
+
+.relaxed {
+  background: rgb(72, 168, 64)
+}
+
+.chill {
+  background: rgb(72, 168, 64)
+}
+
+.restful {
+  background: rgb(72, 160, 45)
+}
+
+.blessed {
+  background: rgb(72, 160, 45)
+}
+
+.balanced {
+  background: rgb(71, 153, 36)
+}
+
+.despondent {
+  background: rgb(27, 44, 104)
+}
+
+.depressed {
+  background: rgb(29, 63, 121)
+}
+
+.sullen {
+  background: rgb(29, 63, 121)
+}
+
+.exhausted {
+  background: rgb(38, 87, 105)
+}
+
+.fatigued {
+  background: rgb(38, 87, 105)
+}
+
+.mellow {
+  background: rgb(29, 152, 74)
+}
+
+.thoughtful {
+  background: rgb(41, 148, 53)
+}
+
+.peaceful {
+  background: rgb(41, 148, 53)
+}
+
+.comfy {
+  background: rgb(40, 138, 30)
+}
+
+.carefree {
+  background: rgb(40, 138, 30)
+}
+
+.despair {
+  background: rgb(27, 44, 104)
+}
+
+.hopeless {
+  background: rgb(27, 44, 104)
+}
+
+.desolate {
+  background: rgb(32, 60, 87)
+}
+
+.spent {
+  background: rgb(37, 71, 90)
+}
+
+.drained {
+  background: rgb(37, 71, 90)
+}
+
+.sleepy {
+  background: rgb(29, 152, 74)
+}
+
+.complacent {
+  background: rgb(18, 136, 51)
+}
+
+.tranquil {
+  background: rgb(18, 136, 51)
+}
+
+.cozy {
+  background: rgb(15, 123, 22)
+}
+
+.serene {
+  background: rgb(15, 123, 22)
+}

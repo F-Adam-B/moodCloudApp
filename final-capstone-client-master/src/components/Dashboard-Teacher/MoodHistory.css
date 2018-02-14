@@ -1,0 +1,47 @@
+.student-history-container {
+  max-width: 505px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.return-to-dashboard {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+  font-size: 1.1em; 
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 173, 202);
+  box-shadow: none;
+  text-shadow: none;
+  border:none;
+  border-radius: 2px;  
+  box-shadow:none;
+  transition: all 0.3s ease;
+}
+
+.return-to-dashboard:hover {
+  cursor: pointer;
+  background-color: rgb(13, 143, 167);
+  transition: all 0.3s ease;
+}
+
+.return-to-dashboard:active {
+  background-color: rgb(12, 110, 128);
+}
+
+.return-to-dashboard-link {
+  color: white;
+  text-decoration: none;
+}
+
+.student-history-name {
+  border-top: 5px solid rgb(70, 133, 214);
+  padding-top: 25px;
+}
+
+.student-history-em {
+  font-size: 0.9em;
+}

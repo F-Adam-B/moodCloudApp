@@ -1,0 +1,46 @@
+.overlay {
+	width: 160px;
+	height: 300px;
+	color: #fff;
+	background: white;
+	border-top: 5px solid rgb(75, 170, 179);
+	border-left: 1px solid rgb(75, 170, 179);
+	border-right: 1px solid rgb(75, 170, 179);
+  position: fixed;
+  right: 36px;
+  bottom: 100px;
+	/* z-index: 1; */
+}
+
+.nav-image {
+	width: 160px
+}
+
+.nav-description {
+	font-size: 0.6em;
+	color: black;
+	padding: 15px 5px
+}
+
+/* 
+.content {
+	color: #fff;
+	position: relative;
+	height: auto;
+	border-radius: 3px;
+	top: 15%;
+	margin: auto auto;
+	border: 1px solid rgba(0,0,0,0.1);
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center
+} */
+
+.contents h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 2em;
+	opacity: 0.8;
+	border-radius: 3px 3px 0 0;
+}

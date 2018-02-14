@@ -1,0 +1,453 @@
+.moodform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-area {
+  width: 390px;
+  font-size: 1em;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 3px rgb(211, 211, 211) solid;
+  line-height: 50px;
+  color: rgb(59, 59, 59);
+  margin-top: -30px;
+}
+
+.save-mood {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  font-size: 1.1em; 
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 173, 202);
+  box-shadow: none;
+  text-shadow: none;
+  border:none;
+  border-radius: 2px;  
+  box-shadow:none;
+  transition: all 0.3s ease;
+}
+
+.save-mood:hover {
+  cursor: pointer;
+  background-color: rgb(13, 143, 167);
+  transition: all 0.3s ease; 
+}
+
+.save-mood:active {
+  background-color: rgb(12, 110, 128);
+}
+
+.save-mood-disabled,
+.save-mood-disabled:disabled {
+  cursor: auto;
+  background-color: rgb(145, 145, 145);
+  opacity: 0.5;
+}
+
+.caption-enraged {
+  color: rgb(249, 17, 29)
+}
+
+.caption-panicked {
+  color: rgb(243, 42, 31)
+}
+
+.caption-stressed {
+  color: rgb(247, 68, 31)
+}
+
+.caption-jittery {
+  color: rgb(242, 97, 33)
+}
+
+.caption-shocked {
+  color: rgb(246, 113, 35)
+}              
+
+.caption-surprised {
+  color: rgb(247, 182, 44)
+}
+
+.caption-upbeat {
+  color: rgb(249, 199, 46)
+}
+
+.caption-festive {
+  color: rgb(249, 199, 46)
+}
+
+.caption-exhilarated {
+  color: rgb(248, 217, 49)
+}
+
+.caption-ecstatic {
+  color: rgb(255, 239, 92)
+}
+
+       
+.caption-livid {
+  color: rgb(245, 17, 29)
+}
+
+.caption-furious {
+  color: rgb(243, 42, 31)
+}
+
+.caption-frustrated {
+  color: rgb(247, 68, 31)
+}
+
+.caption-tense {
+  color: rgb(235, 86, 32)
+}
+
+.caption-stunned {
+  color: rgb(246, 113, 35)
+}
+
+.caption-hyper {
+  color: rgb(247, 190, 45)
+}
+
+.caption-cheerful {
+  color: rgb(247, 202, 47)
+}
+
+.caption-motivated {
+  color: rgb(249, 199, 46)
+}
+
+.caption-inspired {
+  color: rgb(233, 219, 50)
+}
+
+.caption-elated {
+  color: rgb(253, 240, 53)
+}
+        
+.caption-fuming {
+  color: rgb(212, 25, 32)
+}
+
+.caption-frightened {
+  color: rgb(233, 43, 32)
+}
+
+.caption-angry {
+  color: rgb(223, 61, 36)
+}
+
+.caption-nervous {
+  color: rgb(209, 74, 34)
+}
+
+.caption-restless {
+  color: rgb(219, 89, 35)
+}
+
+.caption-energized {
+  color: rgb(247, 190, 45)
+}
+
+.caption-lively {
+  color: rgb(241, 189, 46)
+}
+
+.caption-enthusiastic {
+  color: rgb(234, 201, 48)
+}
+
+.caption-optimistic {
+  color: rgb(234, 201, 48)
+}
+
+.caption-excited {
+  color: rgb(239, 212, 9)
+}
+        
+.caption-anxious {
+  color: rgb(212, 30, 33)
+}
+
+.caption-apprehensive {
+  color: rgb(202, 46, 35)
+}
+
+.caption-worried {
+  color: rgb(222, 59, 35)
+}
+
+.caption-irrated {
+  color: rgb(209, 74, 34)
+}
+
+.caption-annoyed {
+  color: rgb(209, 74, 34)
+}
+
+.caption-pleased {
+  color: rgb(231, 187, 48)
+}
+
+.caption-happy {
+  color: rgb(231, 184, 48)
+}
+
+.caption-focused {
+  color: rgb(230, 194, 49)
+}
+
+.caption-proud {
+  color: rgb(234, 201, 48)
+}
+
+.caption-thrilled {
+  color: rgb(235, 202, 13)
+}
+        
+.caption-repulsed {
+  color: rgb(205, 27, 33)
+}
+
+.caption-troubled {
+  color: rgb(202, 46, 35)
+}
+
+.caption-concerned {
+  color: rgb(202, 46, 35)
+}
+
+.caption-uneasy {
+  color: rgb(200, 65, 37)
+}
+
+.caption-peeved {
+  color: rgb(220, 73, 38)
+}
+
+.caption-pleasant {
+  color: rgb(231, 184, 48)
+}
+
+.caption-joyful {
+  color: rgb(235, 190, 49)
+}
+
+.caption-hopeful {
+  color: rgb(236, 189, 49)
+}
+
+.caption-playful {
+  color: rgb(248, 218, 53)
+}
+
+.caption-blissful {
+  color: rgb(212, 187, 44)
+}
+        
+.caption-disgusted {
+  color: rgb(15, 56, 215)
+}
+
+.caption-glum {
+  color: rgb(24, 85, 207)
+}
+
+.caption-disappointed {
+  color: rgb(32, 109, 190)
+}
+
+.caption-down {
+  color: rgb(40, 136, 188)
+}
+
+.caption-apathetic {
+  color: rgb(49, 162, 172)
+}
+
+.caption-at-ease {
+  color: rgb(121, 183, 55)
+}
+
+.caption-easygoing {
+  color: rgb(121, 183, 55)
+}
+
+.caption-content {
+  color: rgb(121, 183, 55)
+}
+
+.caption-loving {
+  color: rgb(121, 183, 55)
+}
+
+.caption-fulfilled {
+  color: rgb(121, 183, 55)
+}
+        
+.caption-pessimistic {
+  color: rgb(19, 47, 158)
+}
+
+.caption-morose {
+  color: rgb(28, 82, 165)
+}
+
+.caption-discouraged {
+  color: rgb(28, 82, 165)
+}
+
+.caption-sad {
+  color: rgb(39, 120, 156)
+}
+
+.caption-bored {
+  color: rgb(46, 136, 147)
+}
+
+.caption-calm {
+  color: rgb(96, 178, 65)
+}
+
+.caption-secure {
+  color: rgb(96, 178, 65)
+}
+
+.caption-satisfied {
+  color: rgb(96, 172, 52)
+}
+
+.caption-grateful {
+  color: rgb(95, 168, 44)
+}
+
+.caption-touched {
+  color: rgb(95, 168, 44)
+}
+
+.caption-alienated {
+  color: rgb(19, 47, 158)
+}
+
+.caption-miserable {
+  color: rgb(29, 63, 121)
+}
+
+.caption-lonely {
+  color: rgb(31, 77, 134)
+}
+
+.caption-disheartened {
+  color: rgb(38, 96, 126)
+}
+
+.caption-tired {
+  color: rgb(43, 111, 121)
+}
+
+.caption-relaxed {
+  color: rgb(72, 168, 64)
+}
+
+.caption-chill {
+  color: rgb(72, 168, 64)
+}
+
+.caption-restful {
+  color: rgb(72, 160, 45)
+}
+
+.caption-blessed {
+  color: rgb(72, 160, 45)
+}
+
+.caption-balanced {
+  color: rgb(71, 153, 36)
+}
+
+.caption-despondent {
+  color: rgb(27, 44, 104)
+}
+
+.caption-depressed {
+  color: rgb(29, 63, 121)
+}
+
+.caption-sullen {
+  color: rgb(29, 63, 121)
+}
+
+.caption-exhausted {
+  color: rgb(38, 87, 105)
+}
+
+.caption-fatigued {
+  color: rgb(38, 87, 105)
+}
+
+.caption-mellow {
+  color: rgb(29, 152, 74)
+}
+
+.caption-thoughtful {
+  color: rgb(41, 148, 53)
+}
+
+.caption-peaceful {
+  color: rgb(41, 148, 53)
+}
+
+.caption-comfy {
+  color: rgb(40, 138, 30)
+}
+
+.caption-carefree {
+  color: rgb(40, 138, 30)
+}
+
+.caption-despair {
+  color: rgb(27, 44, 104)
+}
+
+.caption-hopeless {
+  color: rgb(27, 44, 104)
+}
+
+.caption-desolate {
+  color: rgb(32, 60, 87)
+}
+
+.caption-spent {
+  color: rgb(37, 71, 90)
+}
+
+.caption-drained {
+  color: rgb(37, 71, 90)
+}
+
+.caption-sleepy {
+  color: rgb(29, 152, 74)
+}
+
+.caption-complacent {
+  color: rgb(18, 136, 51)
+}
+
+.caption-tranquil {
+  color: rgb(18, 136, 51)
+}
+
+.caption-cozy {
+  color: rgb(15, 123, 22)
+}
+
+.caption-serene {
+  color: rgb(15, 123, 22)
+}

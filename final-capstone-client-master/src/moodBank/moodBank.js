@@ -1,0 +1,10 @@
+export const set1 = ['enraged', 'panicked', 'stressed', 'jittery', 'shocked', 'surprised', 'upbeat', 'festive', 'exhilarated', 'ecstatic'];
+export const set2 = ['livid', 'furious', 'frustrated', 'tense', 'stunned', 'hyper', 'cheerful', 'motivated', 'inspired', 'elated'];  
+export const set3 = ['fuming', 'frightened', 'angry', 'nervous', 'restless', 'energized', 'lively', 'enthusiastic', 'optimistic', 'excited'];
+export const set4 = ['anxious', 'apprehensive', 'worried', 'irrated', 'annoyed', 'pleased', 'happy', 'focused', 'proud', 'thrilled'];   
+export const set5 = ['repulsed', 'troubled', 'concerned', 'uneasy', 'peeved', 'pleasant', 'joyful', 'hopeful', 'playful', 'blissful'];
+export const set6 = ['disgusted', 'glum', 'disappointed', 'down', 'apathetic', 'at-ease', 'easygoing', 'content', 'loving', 'fulfilled'];
+export const set7 = ['pessimistic', 'morose', 'discouraged', 'sad', 'bored', 'calm', 'secure', 'satisfied', 'grateful', 'touched']
+export const set8 = ['alienated', 'miserable', 'lonely', 'disheartened', 'tired', 'relaxed', 'chill', 'restful', 'blessed', 'balanced'];
+export const set9 = ['despondent', 'depressed', 'sullen', 'exhausted', 'fatigued', 'mellow', 'thoughtful', 'peaceful', 'comfy', 'carefree'];
+export const set10 = ['despair', 'hopeless', 'desolate', 'spent', 'drained', 'sleepy', 'complacent', 'tranquil', 'cozy', 'serene'];    

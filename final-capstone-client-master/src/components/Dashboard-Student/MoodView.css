@@ -1,0 +1,32 @@
+.mood-view-container {
+  background: white;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  padding-top: 60px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.mood-view-container:before {
+  content: '';
+  width: 300px;
+  height: 180px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+  left: -160px;
+}
+
+.mood-view-container:after {
+  content: '';
+  width: 300px;
+  height: 180px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+  right: -160px;
+}

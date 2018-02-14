@@ -1,0 +1,154 @@
+.card {
+  height: 100vh
+}
+
+.card-body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  max-height: 600px;
+}
+
+.card-title {
+  font-size: 2.1em;
+  font-weight: 300;
+  margin-top: 10px;
+  color: rgb(70, 133, 214);
+}
+
+.messages {
+  border-top: 5px solid rgb(70, 133, 214);
+  padding-top: 10px;
+  background: rgb(241, 241, 241);
+  width: 80%;
+  max-width: 600px;
+  height: 90%;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.message-line {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  margin: 5px;
+  background: rgb(209, 209, 209);
+  min-height: 30px;
+  border-radius: 50px;
+  padding: 10px 15px;
+  line-height: 25px;
+  color: rgb(36, 36, 36);
+}
+
+.form-control {
+  width: 100%;
+  width: 80%;
+  max-width: 600px;
+  height: 50px;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+}
+
+.chat-input {
+  padding-left: 30px;
+  margin-top: 15px;
+}
+
+.button-group {
+  margin-bottom: 50px;
+  /* background-color: tomato; */
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.submit-btn {
+  flex: 1 100%;
+}
+
+.submit-btn, .clear-btn, .back-btn {
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+  font-size: 1.1em; 
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 173, 202);
+  box-shadow: none;
+  text-shadow: none;
+  border:none;
+  border-radius: 2px;  
+  box-shadow:none;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color:rgb(13, 143, 167);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.submit-btn:active {
+  background-color:rgb(12, 110, 128);
+  transition: all 0.1s ease;
+}
+
+.clear-btn {
+  background-color: rgb(224, 58, 58);
+  transition: all 0.3s ease;
+  flex: 1 45%;
+}
+
+.back-btn {
+  background-color: rgb(62, 167, 177);
+  transition: all 0.3s ease;
+  flex: 1 45%;
+}
+
+.clear-btn:hover {
+  background-color: rgb(190, 35, 35);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.clear-btn:active {
+  background-color: rgb(170, 17, 17);
+  transition: all 0.1s ease;
+}
+
+.back-btn:hover {
+  background-color: rgb(52, 140, 148);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.back-btn:active {
+  background-color: rgb(38, 131, 139);
+  transition: all 0.1s ease;
+}
+
+
+.chat-instruction {
+  font-size: 1em;
+  padding: 0;
+  margin: 10px
+}
+
+.emergency {
+  color: rgb(196, 41, 41);
+  margin-top: -10px;
+  /* font-size: 0.9em; */
+  margin-bottom: 15px;
+}
+
+.author {
+  color: rgb(104, 104, 104);
+  padding-right: 3px;
+  color: rgb(207, 84, 62);
+}

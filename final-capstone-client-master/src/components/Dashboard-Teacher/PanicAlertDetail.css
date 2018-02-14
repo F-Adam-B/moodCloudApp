@@ -1,0 +1,96 @@
+.panic-alert-detail {
+  max-width: 515px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-top: rgb(211, 67, 67) 10px solid;
+  background: white;
+  margin-top: 40px;
+}
+
+.following-students {
+  font-size: 0.8em;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.panic-alert-li {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.panic-alert-li-name {
+  font-size: 1.6em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(226, 35, 35);
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 30%;
+  flex-flow: row nowrap;
+}
+
+.panic-alert-li-date-time {
+  display: flex;
+  align-items: center;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  flex: 1 30%;
+}
+
+
+.panic-alert-li-buttons {
+  display: flex;
+  flex: 1 33%;
+  justify-content: flex-end;
+}
+
+.panic-alert-li-chat {
+  background: rgb(8, 173, 202);
+  color: white;
+  border-radius: 2px;
+  box-shadow: none;
+  transition: all 0.2s ease;
+  line-height: 20px;
+}
+
+.panic-alert-li-dismiss {
+  background: rgb(226, 35, 35);
+  color: white;
+  border-radius: 2px;
+  box-shadow: none;
+  transition: all 0.2s ease;
+  line-height: 20px;
+}
+
+
+.panic-alert-li-chat:hover {
+  background-color:rgb(13, 143, 167);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.panic-alert-li-chat:active {
+  background-color:rgb(12, 110, 128);
+  transition: all 0.1s ease;
+}
+
+.panic-alert-li-dismiss:hover {
+  background-color:rgb(190, 35, 35);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.panic-alert-li-dismiss:active {
+  background-color:rgb(170, 17, 17);
+  transition: all 0.1s ease;
+}
+
+.to-chatbox {
+  text-decoration: none;
+  color: white;
+}

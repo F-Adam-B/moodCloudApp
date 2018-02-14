@@ -1,0 +1,86 @@
+.created-course {
+  width: 400px;
+  background: rgb(226, 225, 225);
+  border-left: rgb(118, 60, 143) 5px solid;
+  padding-bottom: 10px;
+  margin: 5px;
+  font-size: 0.6em;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Doesn't go well with instantly rendered 
+list on same page view */
+/* .created-course:nth-child(odd){
+  border-left: rgb(121, 82, 194) 5px solid;
+} */
+
+.class-name-container {
+  flex: 1 100%;
+  margin-bottom: 5px;
+}
+
+.enrolled-students,
+.course-period-2 {
+  margin-top: 15px;
+  flex: 1 100%;
+  
+  font-size: 1.6em;
+  background: rgba(201, 201, 201, 0.675);
+  border-radius: 30px;
+  margin: 5px
+}
+
+.remove-class-button-wrapper {
+  flex: 1 100%;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.remove-class-button {
+  border-radius: 2px;
+  box-shadow: none;
+  transition: all 0.2s ease;
+  line-height: 20px;
+  padding-top: 2px;
+  border: 1px rgb(225, 225, 225) solid;
+}
+
+.remove-class-button:hover {
+  background: rgb(225, 225, 225);
+  color: rgb(226, 35, 35);
+  border: 1px rgb(226, 35, 35) solid;
+  transition: all 0.2s ease;
+}
+
+.remove-class-button:active {
+  color: rgb(170, 17, 17);
+  border: 1px rgb(170, 17, 17) solid;
+}
+
+.not-created-caption{
+  font-size: 0.8em;
+  color: grey;
+}
+
+.collapse-enter {
+  height: 0;
+}
+
+.collapse-enter.collapse-enter-active {
+  height: 103px;
+  transition: height 300ms ease-in;
+}
+
+.collapse-leave {
+  opacity: 1;
+}
+
+.collapse-leave.collapse-leave-active {
+  opacity: 0.01;
+  transition: opacity 150ms ease-in;
+}
