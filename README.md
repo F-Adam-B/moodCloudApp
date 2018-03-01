@@ -28,19 +28,19 @@ AS a ***STUDENT***, you will be able to:
 * Access to a crisis real-time instant messenger to open chat sessions with all linked teachers.
 
 ## WIREFRAME
-<img src="images/wireframe/Landing-Page-Log-In.png" alt="Mood Cloud Wireframe" border="3">
-<img src="images/wireframe/Student.png" alt="Mood Cloud Wireframe Student" border="3">
-<img src="images/wireframe/Teacher.png" alt="Mood Cloud Wireframe Teacher" border="3">
+<img src="final-capstone-client-master/images/wireframe/Landing-Page-Log-In.png" alt="Mood Cloud Wireframe" border="3">
+<img src="final-capstone-client-master/images/wireframe/Student.png" alt="Mood Cloud Wireframe Student" border="3">
+<img src="final-capstone-client-master/images/wireframe/Teacher.png" alt="Mood Cloud Wireframe Teacher" border="3">
 
 
 ## Live Site Screenshots
 <img src="final-capstone-client-master/images/screenshots/screenshot1.png" alt="Mood Cloud Screenshot1" border="3">
-<img src="images/screenshots/screenshot2.png" alt="Mood Cloud Screenshot2" border="3">
-<img src="images/screenshots/screenshot3.png" alt="Mood Cloud Screenshot3" border="3">
-<img src="images/screenshots/screenshot4.png" alt="Mood Cloud Screenshot4" border="3">
-<img src="images/screenshots/screenshot5.png" alt="Mood Cloud Screenshot5" border="3">
-<img src="images/screenshots/screenshot6.png" alt="Mood Cloud Screenshot6" border="3">
-<img src="images/screenshots/screenshot7.png" alt="Mood Cloud Screenshot7" border="3">
+<img src="final-capstone-client-master/images/screenshots/screenshot2.png" alt="Mood Cloud Screenshot2" border="3">
+<img src="final-capstone-client-master/images/screenshots/screenshot3.png" alt="Mood Cloud Screenshot3" border="3">
+<img src="final-capstone-client-master/images/screenshots/screenshot4.png" alt="Mood Cloud Screenshot4" border="3">
+<img src="final-capstone-client-master/images/screenshots/screenshot5.png" alt="Mood Cloud Screenshot5" border="3">
+<img src="final-capstone-client-master/images/screenshots/screenshot6.png" alt="Mood Cloud Screenshot6" border="3">
+<img src="final-capstone-client-master/images/screenshots/screenshot7.png" alt="Mood Cloud Screenshot7" border="3">
 
 ## TECHNOLOGY STACK
 
@@ -50,7 +50,6 @@ AS a ***STUDENT***, you will be able to:
 * HTML
 * React/Redux/Redux Form
 * Socket.io
-
 
 ### SERVER TECHNOLOGIES:
 * Node JS
