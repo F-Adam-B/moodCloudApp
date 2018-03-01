@@ -34,7 +34,7 @@ AS a ***STUDENT***, you will be able to:
 
 
 ## Live Site Screenshots
-<img src="images/screenshots/screenshot1.png" alt="Mood Cloud Screenshot1" border="3">
+<img src="final-capstone-client-master/images/screenshots/screenshot1.png" alt="Mood Cloud Screenshot1" border="3">
 <img src="images/screenshots/screenshot2.png" alt="Mood Cloud Screenshot2" border="3">
 <img src="images/screenshots/screenshot3.png" alt="Mood Cloud Screenshot3" border="3">
 <img src="images/screenshots/screenshot4.png" alt="Mood Cloud Screenshot4" border="3">
